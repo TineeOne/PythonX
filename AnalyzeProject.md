@@ -87,6 +87,10 @@ to do list
 从网页中解析 HTML 来定位感兴趣的位置。
 Python 为上面两个任务提供了两个超棒的工具。我将使用 requests 去加载网页，用 BeautifulSoup 去做解析。
 参考资料：[使用 Python 轻松抓取网页 | Jark's Blog](http://wuchong.me/blog/2014/04/24/easy-web-scraping-with-python/)
+
+定向抓, 就不一定要用 py 自己来了, 有太多工具可以自动来的, 包含转化为文本, 多嗯哼一下?
+
+
 - 邮件内容自动填写
   - 输入：填写邮件的命令
   - 处理：导入预先邮件内容
@@ -96,6 +100,11 @@ Python 为上面两个任务提供了两个超棒的工具。我将使用 reques
 atmp 
 import email
 [SMTP 发送邮件 - 廖雪峰的官方网站](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/001386832745198026a685614e7462fb57dbf733cc9f3ad000)
+stmp 发送邮件对服务器压力之外还有个资格问题, 这属于 EDM 业务, 当然的也有很多靠谱稳定的服务以及接口的, 多嗯哼一下?
+
+
+
+
 - 自动发送邮件  
   - 输入：邮箱地址
   - 处理：
@@ -110,6 +119,8 @@ smtplib
 
 [python - 如何通过 GMail 发送邮件：smtplib 的使用 - leehark 的专栏 - 博客频道 - CSDN.NET](http://blog.csdn.net/leehark/article/details/7173570)
 
+gmail 在大陆不通, 你们的作品准备运行在国外嘛?
+是的。
 - 收件箱数据处理
   - 输入：
   - 处理：分类收件箱邮件（含有确认面试或确认入职）
